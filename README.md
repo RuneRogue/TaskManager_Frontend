@@ -3,6 +3,7 @@
 A decentralized task management application built on the **Sepolia Ethereum Testnet**.  
 
 🔗 **Live App:** [Task Manager DApp](https://taskmanagerdapp.vercel.app/)  
+🔗 **Deployed Smart Contract:** [Blockscout](https://eth-sepolia.blockscout.com/address/0xb7cE37102a7b41e47310cAae054C45014cEF1278)  
 
 ---
 
