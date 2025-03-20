@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# **Task Manager DApp**  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A decentralized task management application built on the **Sepolia Ethereum Testnet**.  
 
-## Available Scripts
+🔗 **Live App:** [Task Manager DApp](https://taskmanagerdapp.vercel.app/)  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## **Prerequisites**  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before using the app, make sure you have:  
+- ✅ **Metamask Installed** ([Download Metamask](https://metamask.io/))  
+- ✅ **Switched to Sepolia Ethereum Network** (Steps below)  
+- ✅ **Some Sepolia ETH for Transactions** ([Get Sepolia ETH](https://sepoliafaucet.com/))  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **How to Use**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **1️⃣ Connect Your Wallet**  
+1. Open [Task Manager DApp](https://taskmanagerdapp.vercel.app/).  
+2. Click **"Connect Wallet"**.  
+3. Approve the connection in **Metamask**.  
+4. Your wallet address will appear once connected.  
 
-### `npm run build`
+### **2️⃣ Switch to Sepolia Ethereum Network**  
+1. Open **Metamask**.  
+2. Click the **network dropdown** (Top right).  
+3. Select **"Sepolia Ethereum"**.  
+4. If Sepolia isn’t listed:  
+   - Click **"Add Network"**.  
+   - Use [Chainlist](https://chainlist.org/) to add Sepolia.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **3️⃣ Get Sepolia ETH (Required for Transactions)**  
+1. Go to a **Sepolia Faucet**:  
+   - [Alchemy Faucet](https://sepoliafaucet.com/)  
+   - [QuickNode Faucet](https://faucet.quicknode.com/)  
+2. Enter your **wallet address** and request **test ETH**.  
+3. You need a small amount of Sepolia ETH for gas fees.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Features & Usage**  
 
-### `npm run eject`
+### **📌 Add a New Task**  
+1. Enter a **task title** and **description**.  
+2. Click **"Add Task"**.  
+3. Confirm the **Metamask transaction**.  
+4. The task will be stored on the **blockchain**.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **📜 View Existing Tasks**  
+- All your tasks are displayed in a list.  
+- Each task shows: **Title, Description, and Status**.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **✅ Complete a Task**  
+1. Click the **"Complete Task"** button next to an active task.  
+2. Confirm the **Metamask transaction**.  
+3. The task will be marked as **Completed**.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **❌ Delete a Task**  
+1. Click **"Delete Task"** on any task.  
+2. Confirm the **Metamask transaction**.  
+3. The task will be **permanently removed** from the blockchain.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## **Troubleshooting**  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **🔹 Metamask Not Connecting?**  
+- Ensure Metamask is **installed & unlocked**.  
+- Refresh the page and **try again**.  
+- Switch to **Sepolia Ethereum Network**.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **🔹 Insufficient ETH for Transactions?**  
+- Get free **Sepolia ETH** from:  
+  - [Alchemy Sepolia Faucet](https://sepoliafaucet.com/)  
+  - [QuickNode Sepolia Faucet](https://faucet.quicknode.com/)  
 
-### Code Splitting
+### **🔹 Transaction Failing?**  
+- Ensure you have **enough ETH** for gas fees.  
+- If Metamask transaction **fails**, try **refreshing the page**.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
